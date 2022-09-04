@@ -11,12 +11,15 @@ import BookIcon from '@mui/icons-material/Book';
 import SettingsIcon from '@mui/icons-material/Settings';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import LogoutIcon from '@mui/icons-material/Logout';
+import logo from "../../images/devConnect.png";
 
 export const Sidebar= () => {
   return (
     <div className="sidebar">
         <div className="top">
-            <span className="logo">devConnect</span>
+            {/* <span className="logo"> */}
+                <img src={logo} alt="devConnect" />
+            {/* </span> */}
         </div>
         <hr/>
         <div className="center">
